@@ -1,0 +1,19 @@
+{
+  "ignore": [
+  "**/*.test.ts",
+  "**/*.spec.ts",
+  ".git",
+  "node_modules/**/node_modules"
+  ],
+  "verbose": true,
+  "events": {
+    "restart": "echo \"App restarted due to changes in :\n'$FILENAME'\""
+  },
+  "env": {
+    "NODE_ENV": "development"
+  },
+  "watch": [
+  "src"
+  ],
+  "ext": "ts"
+}
